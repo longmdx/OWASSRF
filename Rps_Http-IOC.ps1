@@ -17,7 +17,7 @@
 
 
 #Read path to files
-$path = $args[0];
+$path = 'C:\Program Files\Microsoft\Exchange Server\V15\Logging\CmdletInfra\Powershell-Proxy\Http'
 if($path -eq $null){
 	write-host "Usage: powershell .\Rps_Http-IOC.ps1 <PATH TO DIRECTORY WITH RPS_HTTP LOGS>"
 	write-host "Example: powershell .\Rps_Http-IOC.ps1 'C:\Program Files\Microsoft\Exchange Server\V15\Logging\CmdletInfra\Powershell-Proxy\Http'"
